@@ -14,5 +14,8 @@ int main(void)
 	printf("Return value of _myprintf: %d\n", len);
 	printf("Return value of printf: %d\n", len2);
 
+	_myprintf("Length:[%d, %i]\n", len, len);
+	printf("Length:[%d, %i]\n", len2, len2);
+
 	return (0);
 }
